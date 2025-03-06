@@ -21,4 +21,4 @@ jobs:
     - name: Build the Docker image
       run: docker build -t balancedlive .
     - name: push to Dockerhub
-      run: docker push balancedlive:latest
+      run: docker push sandypabilonia/balancedlive:latest
